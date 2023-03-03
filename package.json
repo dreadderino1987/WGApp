@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "vite",
+    "devfb": "firebase emulators:start --import=./fbsavedata --export-on-exit",
+    "fbexport": "firebase emulators:export ./fbsavedata",
     "build": "vite build",
     "preview": "vite preview",
     "test:unit": "vitest",
